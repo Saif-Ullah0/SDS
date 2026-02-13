@@ -37,3 +37,22 @@ print("Area of Polygon:", polygon.area)
 polygon2 = Polygon([(31.47996, 74.34298), (31.47572, 74.33779), (31.57593, 74.34255), (31.47996, 74.34298)])
 print("\nPolygon 2:", polygon2)
 print("Area of Polygon 2:", polygon2.area)
+
+
+#construct  close shape without using constructor polygon using line 
+line3 = LineString([point1, point2, point3, point1])
+print("\nLine 3 (closed shape):", line3)
+print("Area of Line 3 (closed shape):", line3.area)
+
+# plotting this shape 
+x, y = line3.xy
+plt.plot(x, y, label='Closed Shape')
+plt.legend()
+plt.title('Closed Shape from LineString')
+plt.xlabel('X-axis')
+plt.ylabel('Y-axis')
+plt.grid()
+plt.show()
+
+# type of the line3
+print("Type of Line 3:", type(line3))
