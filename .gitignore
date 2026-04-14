@@ -1,6 +1,19 @@
 # folder SPD
 SPD/*
 
+# Data files and large assets
+Course-Datasets/
+__MACOSX/
+nul
+*.gpkg
+*.geojson
+*.shp
+*.dbf
+*.prj
+*.shx
+*.tif
+*.html
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
