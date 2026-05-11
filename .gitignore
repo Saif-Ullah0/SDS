@@ -144,3 +144,20 @@ data/raw/*.json
 
 # Ignore other projects/folders
 daily routine code/
+
+
+# ignore extra files
+*.log
+*.bak
+*.h
+*.tmp
+*.backup
+*.c
+*.o
+*.so
+*.dll
+*.txt  
+*.a
+
+# further folder ignore like i8_angles
+l8_angles/
