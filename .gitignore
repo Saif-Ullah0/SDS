@@ -161,3 +161,5 @@ daily routine code/
 
 # further folder ignore like l8_angles
 l8_angles/
+
+*.xml
